@@ -1,0 +1,22 @@
+<!-- Token Management Section -->
+<div class="bg-white rounded-lg shadow-lg p-6">
+    <h2 class="text-2xl font-bold text-blue-800 mb-4">Kelola Token Akses</h2>
+    <p class="text-gray-600 mb-4">Buat dan kelola token akses untuk murid-murid Anda.</p>
+    <div class="mb-6">
+        <h3 class="text-lg font-medium text-gray-800 mb-2">Token Aktif</h3>
+        <div id="token-list" class="border border-gray-200 rounded-lg p-4 min-h-32">
+            <!-- Token list will go here -->
+        </div>
+    </div>
+    <div class="mb-6">
+        <h3 class="text-lg font-medium text-gray-800 mb-2">Tambah Token Baru</h3>
+        <div class="flex space-x-2">
+            <input type="text" id="new-token" placeholder="Masukkan token baru" class="flex-1 border border-gray-300 rounded px-3 py-2">
+            <input type="text" id="token-description" placeholder="Deskripsi (opsional)" class="flex-1 border border-gray-300 rounded px-3 py-2">
+            <button id="add-token-btn" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Tambah</button>
+        </div>
+    </div>
+    <div class="mt-6 flex justify-end">
+        <button id="back-from-tokens-btn" class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded shadow">Kembali</button>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+<!-- Login Page -->
+<div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-6 mt-10">
+    <h1 class="text-2xl font-bold text-center text-blue-800 mb-6">Login Kuis Pengetahuan Umum</h1>
+    <form id="login-form" class="space-y-4">
+        <div>
+            <label for="username" class="block text-gray-700 mb-1">Nama</label>
+            <input type="text" id="username" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        </div>
+        <div>
+            <label for="class" class="block text-gray-700 mb-1">Kelas</label>
+            <input type="text" id="class" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        </div>
+        <div>
+            <label for="token" class="block text-gray-700 mb-1">Token</label>
+            <input type="text" id="token" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        </div>
+        <div class="text-red-500 hidden" id="login-error"></div>
+        <div>
+            <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">Masuk</button>
+        </div>
+    </form>
+    <div class="mt-4 text-center">
+        <button id="admin-login-btn" class="text-blue-600 hover:underline">Login sebagai Admin</button>
+    </div>
+</div>
